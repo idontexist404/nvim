@@ -124,6 +124,11 @@ _G.packer_plugins = {
     path = "/home/highlander/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  ["nightfox.nvim"] = {
+    loaded = true,
+    path = "/home/highlander/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
+    url = "https://github.com/EdenEast/nightfox.nvim"
+  },
   ["nlsp-settings.nvim"] = {
     loaded = true,
     path = "/home/highlander/.local/share/nvim/site/pack/packer/start/nlsp-settings.nvim",
