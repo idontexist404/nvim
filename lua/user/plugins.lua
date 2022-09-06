@@ -56,6 +56,7 @@ return packer.startup(function(use)
   use 'lukas-reineke/indent-blankline.nvim'
   use 'ahmedkhalf/project.nvim'
   use 'akinsho/toggleterm.nvim'
+  use 'folke/which-key.nvim'
 
   -- Colorschemes
   -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
