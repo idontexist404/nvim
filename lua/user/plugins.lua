@@ -51,10 +51,16 @@ return packer.startup(function(use)
   use { "akinsho/bufferline.nvim", commit = "c78b3ecf9539a719828bca82fc7ddb9b3ba0c353" }
   use { "moll/vim-bbye", commit = "25ef93ac5a87526111f43e5110675032dbcacf56" }
   use 'nvim-lualine/lualine.nvim'
+  use 'goolord/alpha-nvim'
+  use 'lewis6991/impatient.nvim'
+  use 'lukas-reineke/indent-blankline.nvim'
+  use 'ahmedkhalf/project.nvim'
+  use 'akinsho/toggleterm.nvim'
 
   -- Colorschemes
   -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
   use "lunarvim/darkplus.nvim"
+  use "folke/tokyonight.nvim"
   use "EdenEast/nightfox.nvim"
 
   -- cmp plugins
@@ -74,6 +80,7 @@ return packer.startup(function(use)
   use "williamboman/nvim-lsp-installer" -- simple to use language server installer
   use "tamago324/nlsp-settings.nvim" -- language server settings defined in json for
   use "jose-elias-alvarez/null-ls.nvim"
+  use 'RRethy/vim-illuminate'
 
   -- Telescope
   use "nvim-telescope/telescope.nvim"
