@@ -6,6 +6,7 @@ spec "highlander.mason"
 spec "highlander.lspconfig"
 spec "highlander.treesitter"
 spec "highlander.cmp"
+spec "highlander.null-ls"
 
 spec "highlander.colorscheme"
 spec "highlander.lualine"
