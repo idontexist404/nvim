@@ -1,23 +1,32 @@
-require "highlander.spec"
-require "highlander.options"
-require "highlander.keymaps"
+require("highlander.spec")
+require("highlander.options")
+require("highlander.keymaps")
 
-spec "highlander.mason"
-spec "highlander.lspconfig"
-spec "highlander.treesitter"
-spec "highlander.cmp"
-spec "highlander.null-ls"
+spec("highlander.mason")
+spec("highlander.lspconfig")
+spec("highlander.treesitter")
+spec("highlander.cmp")
+spec("highlander.null-ls")
 
-spec "highlander.colorscheme"
-spec "highlander.lualine"
-spec "highlander.telescope"
-spec "highlander.autopairs"
-spec "highlander.comment"
-spec "highlander.indentline"
-spec "highlander.illuminate"
-spec "highlander.devicons"
-spec "highlander.diffview"
-spec "highlander.gitsigns"
-spec "highlander.schemastore"
+spec("highlander.colorscheme")
+spec("highlander.lualine")
+spec("highlander.indentline")
+spec("highlander.illuminate")
+spec("highlander.devicons")
+spec("highlander.alpha")
+spec("highlander.breadcrumbs")
+spec("highlander.navic")
+spec("highlander.netrw")
+spec("highlander.whichkey")
 
-require "highlander.lazy"
+spec("highlander.telescope")
+spec("highlander.telescope-tabs")
+spec("highlander.nvimtree")
+spec("highlander.autopairs")
+spec("highlander.comment")
+spec("highlander.diffview")
+spec("highlander.gitsigns")
+spec("highlander.schemastore")
+spec("highlander.project")
+
+require("highlander.lazy")
