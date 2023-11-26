@@ -13,5 +13,8 @@ spec "highlander.autopairs"
 spec "highlander.comment"
 spec "highlander.indentline"
 spec "highlander.illuminate"
+spec "highlander.devicons"
+spec "highlander.diffview"
+spec "highlander.gitsigns"
 
 require "highlander.lazy"
