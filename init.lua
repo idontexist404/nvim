@@ -3,6 +3,7 @@ require "highlander.options"
 
 spec "highlander.mason"
 spec "highlander.lspconfig"
+spec "highlander.treesitter"
 spec "highlander.cmp"
 
 spec "highlander.colorscheme"
