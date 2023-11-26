@@ -101,7 +101,7 @@ function M.config()
       capabilities = M.common_capabilities(),
     }
 
-    local require_ok, settings = pcall(require, "user.lspsettings." .. server)
+    local require_ok, settings = pcall(require, "highlander.lspsettings." .. server)
     if require_ok then
       opts = vim.tbl_deep_extend("force", settings, opts)
     end
@@ -110,9 +110,9 @@ function M.config()
       require("neodev").setup {}
     end
 
-    if server == "gopls" then
-      require("neodev").setup {}
-    end
+    -- if server == "gopls" then
+    --   require("neodev").setup {} -- not sure if this is necessary
+    -- end
 
     lspconfig[server].setup(opts)
   end

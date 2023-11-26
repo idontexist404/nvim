@@ -18,5 +18,6 @@ spec "highlander.illuminate"
 spec "highlander.devicons"
 spec "highlander.diffview"
 spec "highlander.gitsigns"
+spec "highlander.schemastore"
 
 require "highlander.lazy"
