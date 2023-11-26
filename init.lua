@@ -1,5 +1,6 @@
 require "highlander.spec"
 require "highlander.options"
+require "highlander.keymaps"
 
 spec "highlander.mason"
 spec "highlander.lspconfig"
